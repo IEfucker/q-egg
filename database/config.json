@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "root",
+    "password": "12345678",
+    "database": "whatatest",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "12345678",
+    "database": "whatatest1",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
