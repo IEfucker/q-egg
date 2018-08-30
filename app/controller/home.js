@@ -5,7 +5,6 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller {
   async render() {
     const ctx = this.ctx;
-
     if (ctx.isAuthenticated()) {
       ctx.body = `<div>
         <h2>${ctx.path}</h2>

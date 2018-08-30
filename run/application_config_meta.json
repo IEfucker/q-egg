@@ -163,7 +163,9 @@
       "egg-passport-github": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "egg-sequelize": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
-      "mysql2": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+      "lodash": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "uuid": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "autod": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
@@ -183,6 +185,7 @@
       "lint": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "dev": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "test": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "cov": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "ci": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "migrate:new": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",

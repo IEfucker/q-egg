@@ -9,7 +9,8 @@
     "egg-scripts": "^2.5.0",
     "egg-sequelize": "^4.0.7",
     "lodash": "^4.17.10",
-    "mysql2": "^1.6.1"
+    "mysql2": "^1.6.1",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -29,6 +30,7 @@
     "lint": "eslint .",
     "dev": "egg-bin dev",
     "test": "egg-bin test",
+    "debug": "egg-bin debug",
     "cov": "egg-bin cov",
     "ci": "npm run lint && NODE_ENV=test npx sequelize db:migrate && npm run cov",
     "migrate:new": "sequelize migration:create",

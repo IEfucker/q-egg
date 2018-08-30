@@ -12,6 +12,7 @@ module.exports = {
     const { INTEGER, STRING, DATE } = Sequelize
     return queryInterface.createTable('test', {
       _id: { type: INTEGER, primaryKey: true, autoIncrement: true },
+      test_id: STRING(100), // 由q_ids字符串生成，作为test的暴露id
       q_ids: STRING(100),
       created_at: { type: DATE },
       updated_at: { type: DATE },
