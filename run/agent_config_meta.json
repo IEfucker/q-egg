@@ -1,0 +1,294 @@
+{
+  "keys": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+  "passportGithub": {
+    "key": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+    "secret": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+    "callbackURL": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-passport-github\\config\\config.default.js"
+  },
+  "middleware": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+  "sequelize": {
+    "dialect": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+    "database": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+    "host": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+    "port": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+    "username": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+    "password": "D:\\workspace\\koa\\q-egg\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport-github": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "factory-girl": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "sequelize-cli": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "autod": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "migrate:new": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "migrate:up": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "migrate:down": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "seed:new": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "seed:up": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "seed:down:all": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "eslintIgnore": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "repository": {
+      "type": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "files": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\workspace\\koa\\q-egg\\node_modules\\egg\\config\\config.default.js"
+}
