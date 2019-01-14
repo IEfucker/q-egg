@@ -10,6 +10,8 @@ module.exports = app => {
     tags: STRING(100),
     created_at: { type: DATE },
     updated_at: { type: DATE },
+  }, {
+    freezeTableName: true,
   })
   return Question
 }

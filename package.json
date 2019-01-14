@@ -35,7 +35,7 @@
     "ci": "npm run lint && NODE_ENV=test npx sequelize db:migrate && npm run cov",
     "migrate:new": "sequelize migration:create",
     "migrate:up": "sequelize db:migrate",
-    "migrate:down": "sequelize db:migrate:undo",
+    "migrate:down": "sequelize db:migrate:undo:all",
     "seed:new": "sequelize seed:generate",
     "seed:up": "sequelize db:seed:all",
     "seed:down:all": "sequelize db:seed:undo:all"

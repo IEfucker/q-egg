@@ -9,7 +9,7 @@ class HomeController extends Controller {
       ctx.body = `<div>
         <h2>${ctx.path}</h2>
         <hr>
-        Logined user: <img src="${ctx.user.photo}"> ${ctx.user.displayName} / ${ctx.user.id} | <a href="/logout">Logout</a>
+        Logined user: <img src="${ctx.user.avatar}"> ${ctx.user.githubUsername} / ${ctx.user.githubId} | <a href="/logout">Logout</a>
         <pre><code>${JSON.stringify(ctx.user, null, 2)}</code></pre>
         <hr>
         <a href="/">Home</a> | <a href="/user">User</a>

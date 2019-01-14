@@ -12,9 +12,8 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-    return queryInterface.bulkInsert('User', [{
+    return queryInterface.bulkInsert('user', [{
       _id: 1,
-      loginname: 'test',
       name: 'test',
       password: null,
       email: '',
@@ -25,7 +24,7 @@ module.exports = {
       githubAccessToken: null,
       is_block: 0, // 默认1是true
       age: null,
-      active: 0, // 默认1是true,
+      active: true, // 默认1是true,
       accessToken: null,
       created_at: '2018-8-20 00:40:40',
       updated_at: '2018-8-21 02:58:27',
@@ -41,6 +40,6 @@ module.exports = {
       Example:
       return queryInterface.bulkDelete('Person', null, {});
     */
-    return queryInterface.bulkDelete('User', null, {})
+    return queryInterface.bulkDelete('user', null, {})
   },
 };

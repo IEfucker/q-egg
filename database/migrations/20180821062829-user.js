@@ -9,10 +9,9 @@ module.exports = {
       Example:
       return queryInterface.createTable('users', { id: Sequelize.INTEGER });
     */
-    const { STRING, INTEGER, DATE } = Sequelize
+    const { STRING, INTEGER, DATE, BOOLEAN } = Sequelize
     return queryInterface.createTable('user', {
       _id: { type: INTEGER, primaryKey: true, autoIncrement: true }, // 用户id
-      loginname: { type: STRING(30) },
       name: STRING(30),
       password: STRING(32),
       email: STRING(32),
@@ -21,9 +20,9 @@ module.exports = {
       githubId: STRING(30),
       githubUsername: STRING(30),
       githubAccessToken: STRING(100),
-      is_block: { type: INTEGER, defaultValue: 0 }, // 默认1是true
+      is_block: { type: INTEGER, defaultValue: false }, // 默认1是true
       age: INTEGER,
-      active: { type: INTEGER, defaultValue: 0 }, // 默认1是true,
+      active: { type: BOOLEAN, defaultValue: true }, // 默认1是true,
       accessToken: { type: STRING },
       created_at: { type: DATE },
       updated_at: { type: DATE },

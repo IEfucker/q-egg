@@ -1,5 +1,6 @@
 {
   "keys": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+  "auth_cookie_name": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
   "passportGithub": {
     "key": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
     "secret": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
@@ -12,7 +13,8 @@
     "host": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
     "port": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
     "username": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
-    "password": "D:\\workspace\\koa\\q-egg\\config\\config.default.js"
+    "password": "D:\\workspace\\koa\\q-egg\\config\\config.default.js",
+    "timezone": "D:\\workspace\\koa\\q-egg\\config\\config.default.js"
   },
   "session": {
     "maxAge": "D:\\workspace\\koa\\q-egg\\node_modules\\egg-session\\config\\config.default.js",

@@ -7,6 +7,8 @@ module.exports = app => {
     q_ids: STRING(100),
     created_at: { type: DATE },
     updated_at: { type: DATE },
+  }, {
+    freezeTableName: true,
   })
   return Test
 }

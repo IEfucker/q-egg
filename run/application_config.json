@@ -172,11 +172,12 @@
     },
     "sequelize": {
       "dialect": "mysql",
-      "database": "whatatest",
+      "database": "q",
       "host": "localhost",
       "port": "3306",
       "username": "root",
-      "password": "<String len: 8>"
+      "password": "<String len: 8>",
+      "timezone": "+08:00"
     },
     "passportGithub": {
       "key": "6c94d799a7780d39507d",
@@ -236,7 +237,7 @@
         "ci": "npm run lint && NODE_ENV=test npx sequelize db:migrate && npm run cov",
         "migrate:new": "sequelize migration:create",
         "migrate:up": "sequelize db:migrate",
-        "migrate:down": "sequelize db:migrate:undo",
+        "migrate:down": "sequelize db:migrate:undo:all",
         "seed:new": "sequelize seed:generate",
         "seed:up": "sequelize db:seed:all",
         "seed:down:all": "sequelize db:seed:undo:all"
@@ -361,6 +362,7 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "auth_cookie_name": "q_test",
     "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",

@@ -21,7 +21,17 @@ class UserService extends Service {
    * @return {Promise[user]} 承载用户的 Promise 对象
    */
   getUserByToken(accessToken) {
-    const query = { accessToken };
+    const query = { where: { accessToken } };
+    return this.ctx.model.User.findOne(query);
+  }
+
+  /*
+   * 根据用户名查找用户
+   * @param {String} name
+   * @return {Promise[user]} 承载用户的 Promise 对象
+   */
+  getUserByName(name) {
+    const query = { where: { name } };
     return this.ctx.model.User.findOne(query);
   }
 }
