@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
   up: queryInterface => {
@@ -15,22 +15,22 @@ module.exports = {
     return queryInterface.bulkInsert('Tag', [{
       _id: 1,
       name: 'tag1',
-      category: 0,
+      category: 'es5',
       created_at: '2018-8-20 00:40:40',
       updated_at: '2018-8-21 02:58:27',
     }, {
       _id: 2,
       name: 'tag2',
-      category: 0,
+      category: 'es5',
       created_at: '2018-8-20 00:40:40',
       updated_at: '2018-8-21 02:58:27',
     }, {
       _id: 3,
       name: 'Closures',
-      category: 0,
+      category: 'es5',
       created_at: '2018-8-20 00:40:40',
       updated_at: '2018-8-21 02:58:27',
-    }], {});
+    }], {})
   },
 
   down: queryInterface => {
@@ -43,4 +43,4 @@ module.exports = {
     */
     return queryInterface.bulkDelete('Tag', null, {})
   },
-};
+}
