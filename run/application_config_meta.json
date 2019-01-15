@@ -170,13 +170,20 @@
       "uuid": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
+      "@babel/core": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "@babel/polyfill": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "@babel/preset-env": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "@babel/register": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "autod": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "autod-egg": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "babel-core": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "babel-eslint": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "egg-bin": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "egg-mock": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "eslint": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "eslint-config-egg": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "factory-girl": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
+      "regenerator-runtime": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js",
       "sequelize-cli": "D:\\workspace\\nodejs\\egg\\q-egg\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
